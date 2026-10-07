@@ -1,0 +1,160 @@
+{
+  "started_at": "2026-10-02T20:18:58.582+08:00",
+  "finished_at": "2026-10-02T20:19:03.349+08:00",
+  "timezone": "Asia/Shanghai",
+  "python": "3.13.2 (tags/v3.13.2:4f8bb39, Feb  4 2025, 15:23:48) [MSC v.1942 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "python_executable": "C:\\Users\\lenovo\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+  "source_repository": "https://github.com/kunyi39/sdes-information-security",
+  "source_revision": "47fc851b0fc88ac53126a2fb8843ce67e1d17536",
+  "implementation_sha256": {
+    "sdes.py": "b614970a3560849a6d78c628849b95a15d02a0ef5c9c3a241fd1e9e4f7f73594",
+    "reference_sdes.py": "05a5a05ea07a3fa4b6b92c3cebac3e06054bb8ffdb905df822a344d3bea5a9fc",
+    "cryptanalysis.py": "52d330199122e104af9ea35aa0fcfeb94228ed68dfadb3a7af786f00531a3c3e",
+    "run_experiments.py": "911352b9f00f289afc1984399004a0aff67b61c13f4cae6e1ca30bc81fe52ec4"
+  },
+  "cross_test": {
+    "passed": true,
+    "cases": [
+      {
+        "case_id": "1",
+        "key": "1010000010",
+        "plaintext": "10101010",
+        "expected_ciphertext": "10001101",
+        "expected_decrypted_plaintext": "10101010",
+        "partner_ciphertext": "10001101",
+        "partner_decrypted_plaintext": "10101010",
+        "status": "PASS",
+        "a_ciphertext": "10001101",
+        "b_decrypted_plaintext": "10101010",
+        "b_ciphertext": "10001101",
+        "a_decrypted_plaintext": "10101010",
+        "a_to_b_status": "PASS",
+        "b_to_a_status": "PASS"
+      },
+      {
+        "case_id": "2",
+        "key": "1010000010",
+        "plaintext": "00000000",
+        "expected_ciphertext": "00001110",
+        "expected_decrypted_plaintext": "00000000",
+        "partner_ciphertext": "00001110",
+        "partner_decrypted_plaintext": "00000000",
+        "status": "PASS",
+        "a_ciphertext": "00001110",
+        "b_decrypted_plaintext": "00000000",
+        "b_ciphertext": "00001110",
+        "a_decrypted_plaintext": "00000000",
+        "a_to_b_status": "PASS",
+        "b_to_a_status": "PASS"
+      },
+      {
+        "case_id": "3",
+        "key": "0111111101",
+        "plaintext": "11010111",
+        "expected_ciphertext": "00001011",
+        "expected_decrypted_plaintext": "11010111",
+        "partner_ciphertext": "00001011",
+        "partner_decrypted_plaintext": "11010111",
+        "status": "PASS",
+        "a_ciphertext": "00001011",
+        "b_decrypted_plaintext": "11010111",
+        "b_ciphertext": "00001011",
+        "a_decrypted_plaintext": "11010111",
+        "a_to_b_status": "PASS",
+        "b_to_a_status": "PASS"
+      },
+      {
+        "case_id": "4",
+        "key": "0000000000",
+        "plaintext": "00000000",
+        "expected_ciphertext": "11110000",
+        "expected_decrypted_plaintext": "00000000",
+        "partner_ciphertext": "11110000",
+        "partner_decrypted_plaintext": "00000000",
+        "status": "PASS",
+        "a_ciphertext": "11110000",
+        "b_decrypted_plaintext": "00000000",
+        "b_ciphertext": "11110000",
+        "a_decrypted_plaintext": "00000000",
+        "a_to_b_status": "PASS",
+        "b_to_a_status": "PASS"
+      },
+      {
+        "case_id": "5",
+        "key": "1111111111",
+        "plaintext": "11111111",
+        "expected_ciphertext": "00001111",
+        "expected_decrypted_plaintext": "11111111",
+        "partner_ciphertext": "00001111",
+        "partner_decrypted_plaintext": "11111111",
+        "status": "PASS",
+        "a_ciphertext": "00001111",
+        "b_decrypted_plaintext": "11111111",
+        "b_ciphertext": "00001111",
+        "a_decrypted_plaintext": "11111111",
+        "a_to_b_status": "PASS",
+        "b_to_a_status": "PASS"
+      }
+    ],
+    "execution_scope": "A and independent B executed locally on the same computer",
+    "human_partner_rerun_confirmed": false
+  },
+  "single_pair_search": {
+    "candidate_keys": [
+      "1010000010",
+      "1010010110",
+      "1011001010",
+      "1011011110"
+    ],
+    "checked_keys": 1024,
+    "elapsed_seconds": 0.01846280000063416,
+    "started_at": "2026-10-02T20:18:58.630+08:00",
+    "finished_at": "2026-10-02T20:18:58.649+08:00"
+  },
+  "multiple_pair_search": {
+    "candidate_keys": [
+      "1010000010",
+      "1011001010"
+    ],
+    "checked_keys": 1024,
+    "elapsed_seconds": 0.018837499999790452,
+    "started_at": "2026-10-02T20:18:58.649+08:00",
+    "finished_at": "2026-10-02T20:18:58.667+08:00"
+  },
+  "random_sample": {
+    "plaintext": "11001110",
+    "original_key": "1110000011",
+    "ciphertext": "10010101",
+    "candidate_count": 8,
+    "search": {
+      "candidate_keys": [
+        "0000111111",
+        "0001110111",
+        "0010001011",
+        "0011000011",
+        "1100110111",
+        "1101111111",
+        "1110000011",
+        "1111001011"
+      ],
+      "checked_keys": 1024,
+      "elapsed_seconds": 0.018282400000316557,
+      "started_at": "2026-10-02T20:18:58.591+08:00",
+      "finished_at": "2026-10-02T20:18:58.609+08:00"
+    },
+    "candidates_verified_by_b": true,
+    "fixed_plaintext_analysis": {
+      "distinct_ciphertexts": 238,
+      "ciphertexts_with_multiple_keys": 222,
+      "maximum_keys_for_ciphertext": 12
+    }
+  },
+  "all_plaintexts": {
+    "plaintext_blocks_checked": 256,
+    "keys_checked_per_plaintext": 1024,
+    "plaintexts_with_collisions": 256,
+    "minimum_distinct_ciphertexts": 238,
+    "maximum_distinct_ciphertexts": 240
+  }
+}

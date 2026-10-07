@@ -1,0 +1,23 @@
+test_cross_test_writes_actual_results_and_detects_wrong_expectations (test_cooperation.CooperationTests.test_cross_test_writes_actual_results_and_detects_wrong_expectations) ... ok
+test_csv_columns_and_leading_zeroes (test_cooperation.CooperationTests.test_csv_columns_and_leading_zeroes) ... ok
+test_experiment_runs_on_python_only_machine_without_git (test_cooperation.CooperationTests.test_experiment_runs_on_python_only_machine_without_git) ... ok
+test_explicit_output_directory_preserves_existing_vector_file (test_cooperation.CooperationTests.test_explicit_output_directory_preserves_existing_vector_file) ... ok
+test_independent_implementation_matches_modified_sbox_vectors (test_cooperation.CooperationTests.test_independent_implementation_matches_modified_sbox_vectors) ... ok
+test_random_sample_preserves_original_key_and_all_candidates (test_cooperation.CooperationTests.test_random_sample_preserves_original_key_and_all_candidates) ... ok
+test_reference_rejects_invalid_blocks_and_keys (test_cooperation.CooperationTests.test_reference_rejects_invalid_blocks_and_keys) ... ok
+test_all_plaintexts_have_key_collisions (test_extended_features.ExtendedFeatureTests.test_all_plaintexts_have_key_collisions) ... ok
+test_ascii_text_round_trip (test_extended_features.ExtendedFeatureTests.test_ascii_text_round_trip) ... ok
+test_brute_force_finds_key_and_uses_multiple_pairs (test_extended_features.ExtendedFeatureTests.test_brute_force_finds_key_and_uses_multiple_pairs) ... ok
+test_empty_ascii_text_round_trip (test_extended_features.ExtendedFeatureTests.test_empty_ascii_text_round_trip) ... ok
+test_fixed_plaintext_has_key_collisions (test_extended_features.ExtendedFeatureTests.test_fixed_plaintext_has_key_collisions) ... ok
+test_non_ascii_text_is_rejected (test_extended_features.ExtendedFeatureTests.test_non_ascii_text_is_rejected) ... ok
+test_all_byte_values_round_trip (test_sdes.SDESCoreTests.test_all_byte_values_round_trip) ... ok
+test_assignment_parameters_and_reference_vector (test_sdes.SDESCoreTests.test_assignment_parameters_and_reference_vector) ... ok
+test_block_round_trip (test_sdes.SDESCoreTests.test_block_round_trip) ... ok
+test_invalid_inputs_are_rejected (test_sdes.SDESCoreTests.test_invalid_inputs_are_rejected) ... ok
+test_subkeys_are_eight_bits (test_sdes.SDESCoreTests.test_subkeys_are_eight_bits) ... ok
+
+----------------------------------------------------------------------
+Ran 18 tests in 11.001s
+
+OK

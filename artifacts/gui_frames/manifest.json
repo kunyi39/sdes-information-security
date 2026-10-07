@@ -1,0 +1,27 @@
+[
+  {
+    "file": "01_single_input.jpg",
+    "label": "Single pair, before search",
+    "captured_at": "2026-10-02T12:29:45.209Z"
+  },
+  {
+    "file": "02_single_result.jpg",
+    "label": "Single pair: measured result and timestamps",
+    "captured_at": "2026-10-02T12:29:55.748Z"
+  },
+  {
+    "file": "03_single_candidates.jpg",
+    "label": "Single pair: all four candidates after scrolling",
+    "captured_at": "2026-10-02T12:30:03.490Z"
+  },
+  {
+    "file": "04_multiple_input.jpg",
+    "label": "Second pair added; output still belongs to prior search",
+    "captured_at": "2026-10-02T12:30:35.177Z"
+  },
+  {
+    "file": "05_multiple_result.jpg",
+    "label": "Two pairs: measured result, two candidates",
+    "captured_at": "2026-10-02T12:30:46.874Z"
+  }
+]
